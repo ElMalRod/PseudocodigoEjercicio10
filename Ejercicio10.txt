@@ -1,0 +1,16 @@
+Algoritmo Ejercicio10
+	Definir N,contador,mult, num Como Entero
+	Repetir
+		Escribir "Ingrese Un numero"
+		Leer N
+		contador=contador+N
+		Si N mod 6 == 0  Entonces
+			mult=mult+1
+		Fin Si
+		Si N <= 10 Entonces
+			num=num+N
+		Fin Si
+	Hasta Que contador==1000
+	Escribir "la cantidad de numeros multiplos de 6 es de: ",mult
+	Escribir "la  suma de numeros entre 1 y 10 es de: ",num
+FinAlgoritmo
